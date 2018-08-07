@@ -1,0 +1,344 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.form{
+  margin-top: 100px;
+  background-color: #fff;
+  height: 350px;
+  border-radius: 10px;
+  border: solid 1px #E6E6E6;
+
+  box-shadow: 2px 2px 2px #E6E6E6;
+  -webkit-box-shadow: 2px 2px 2px #E6E6E6;
+  -moz-box-shadow: 2px 2px 2px #E6E6E6;
+
+}
+.formSenha{
+  margin-top: 70px;
+  background-color: #fff;
+  height: 400px;
+  border-radius: 10px;
+  border: solid 1px #E6E6E6;
+
+  box-shadow: 2px 2px 2px #E6E6E6;
+  -webkit-box-shadow: 2px 2px 2px #E6E6E6;
+  -moz-box-shadow: 2px 2px 2px #E6E6E6;
+
+}
+.form-mob{
+  margin-top: 20px;
+  background-color: #fff;
+  height: 350px;
+  border-radius: 10px;
+  border: solid 1px #E6E6E6;
+
+  box-shadow: 2px 2px 2px #E6E6E6;
+  -webkit-box-shadow: 2px 2px 2px #E6E6E6;
+  -moz-box-shadow: 2px 2px 2px #E6E6E6;
+}
+
+
+.tetrislink .tetris1{
+  width: 10px; 
+  height: 10px; 
+  background-color: #057A2C; 
+  position: fixed; 
+  bottom: 55px; 
+  left: 10px; 
+
+  opacity:0.0; 
+  -moz-opacity: 0.0; 
+  filter: alpha(opacity=0);
+}
+
+.tetrislink .tetris2{
+  width: 30px; 
+  height: 10px; 
+  background-color: #057A2C; 
+  position: fixed; 
+  bottom: 45px; 
+  left: 10px;
+
+  opacity:0.0; 
+  -moz-opacity: 0.0; 
+  filter: alpha(opacity=0);
+}
+
+.corpo{
+  display: none;
+}
+.carregando{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://loading.io/spinners/wave/lg.wave-ball-preloader.gif) 50% 50% no-repeat;
+}
+
+.fca{
+  width: 25px; 
+  height: 25px; 
+  border-radius: 50%; 
+  margin-left: 2px;
+}
+.fca.fca_vermelho{
+  background-color: #FF0000; 
+}
+.fca.fca_azul{
+  background-color: #0000FF; 
+}
+.fca.fca_verde{
+  background-color: #00FF00; 
+}
+.fca.fca_amarelo{
+  background-color: #F7FE2E; 
+}
+table.fcaTable{
+  border-collapse: collapse;
+}    
+table.fcaTable td, th{
+  border: solid 1px #A4A4A4;
+}
+table.fcaTable th{
+  border-bottom: solid 1px #A4A4A4!important ;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
+table.fcaTable tr:nth-child(even){
+  background-color: #FFFFFF;
+  height: 20px!important;
+}
+table.fcaTable tr:nth-child(odd){
+  background-color: #FAFAFA;
+  height: 20px!important;
+}
+table.fcaTable td{
+  height: 20px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+@media (min-width: 768px){
+
+  *  {
+    margin:0;
+    padding:0;
+  }
+
+  html, body {height:100%; width: 100%}
+
+  body{
+    background-color: #FAFAFA;
+  }
+
+  .duvidas {
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    width: 60px;
+  }
+
+  .footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #f8f8f8;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    color: #777;
+  }
+
+  .footer p{
+   text-align: center;
+   margin-top: 10px;
+ }
+ table{
+  background-color: #fff;
+  text-transform: uppercase;;
+  font-size: 12px;
+}
+.resultado{
+  height: 200px;
+}
+
+.resultado:hover{
+  height: 200px;
+  border: 1px solid #585858;
+  border-radius: 10px;
+}
+
+.resultado h3{
+  position: relative;
+  text-align: center;
+  top: -25px;
+}
+
+.resultado img{
+  width: 100%;
+  margin-top: 25px;
+  padding: 0;
+}
+}
+@media (max-width: 768px){
+
+  *  {
+    margin:0;
+    padding:0;
+  }
+
+  html, body {height:100%; width: 100%;}
+
+  body{
+    background-color: #FAFAFA;
+  }
+
+  .duvidas {
+    position: fixed;
+    bottom: 65px;
+    right: 5px;
+    width: 60px;
+  }
+
+
+  .footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #f8f8f8;
+    border: solid 1px #e7e7e7;
+    height: 60px;
+    color: #777;
+  }
+
+  .footer p{
+   text-align: center;
+   margin-top: 10px;
+ }
+ table{
+  background-color: #fff;
+  text-transform: uppercase;;
+  font-size: 12px;
+}
+.resultado{
+  height: 200px;
+}
+
+.resultado:hover{
+  height: 200px;
+  border: 1px solid #585858;
+  border-radius: 10px;
+}
+
+.resultado h3{
+  position: relative;
+  text-align: center;
+  top: -25px;
+}
+
+.resultado img{
+  width: 100%;
+  margin-top: 25px;
+  padding: 0;
+}
+}
+
+table tr th.filial{
+  background-color: #088A08 !important ;
+  color: #fff !important;
+} 
+table tr th.mercantil{
+  background-color: #FF8000 !important ;
+  color: #fff !important;
+}
+table tr th.moveis{
+  background-color: #FFFF00 !important;
+  color: #000 !important;
+}
+table tr th.desconto{
+  background-color: #424242 !important;
+  color: #fff !important;
+}
+table tr th.cdc{
+  background-color: #DF013A !important;
+  color: #fff !important;
+}
+table tr th.eficiencia{
+  background-color: #0000FF !important;
+  color: #fff !important;
+}
+table tr th.familia1{
+  background-color: #FF8000  !important;
+  color: #fff !important;
+}
+table tr th.familia2{
+  background-color: #21610B !important;
+  color: #fff !important;
+}
+table tr th.familia3{
+  background-color: #61380B !important;
+  color: #fff !important;
+}
+table tr th.servico{
+  background-color: #6A0888 !important;
+  color: #fff !important;
+}
+table tr th.planos{
+  background-color: #8A0808 !important;
+  color: #fff !important;
+  
+}
+table tr th.cartoes{
+  background-color: #610B4B !important;
+  color: #fff !important;
+}
+
+table{
+  border-collapse: collapse;
+
+}
+table td, th{
+  border: solid 1px #A4A4A4;
+}
+table th{
+  border-bottom: solid 2px red !important;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
+table td{
+  height: 20px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+table tr th.feriadoPassado{
+  background-color: #FF0033 !important;
+  color: #000 !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: #dcdcdc!important;
+}
+
+.nav-tabs>li>a {
+  color: #777 !important;
+}
+

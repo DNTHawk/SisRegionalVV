@@ -1,0 +1,123 @@
+a.tooltip{
+  position:relative; 
+  font-size:12px; 
+  color:#039;
+  text-decoration:none;
+  cursor:help; 
+  }
+ 
+  a.tooltip:hover{
+  background:transparent;
+  color:#f00;
+  z-index:25; 
+ 
+  }
+  a.tooltip span{display: none
+  }
+ 
+  a.tooltip:hover span{ 
+  display:block;
+  position:absolute;
+  width:210px; 
+  top:20px;
+  left:0;
+  font-size: 12px;
+  padding:5px;
+  border:1px solid #999;
+  background:#e0ffff; 
+  color:#000;
+  }
+
+
+.navbar{
+  position:fixed !important;
+  width: 100%;
+}
+table tr th.filial{
+  background-color: #088A08 !important ;
+  color: #fff !important;
+} 
+table tr th.mercantil{
+  background-color: #FF8000 !important ;
+  color: #fff !important;
+}
+table tr th.moveis{
+  background-color: #FFFF00 !important;
+  color: #000 !important;
+}
+table tr th.desconto{
+  background-color: #424242 !important;
+  color: #fff !important;
+}
+table tr th.cdc{
+  background-color: #DF013A !important;
+  color: #fff !important;
+}
+table tr th.eficiencia{
+  background-color: #0000FF !important;
+  color: #fff !important;
+}
+table tr th.familia1{
+  background-color: #FF8000  !important;
+  color: #fff !important;
+}
+table tr th.familia2{
+  background-color: #21610B !important;
+  color: #fff !important;
+}
+table tr th.familia3{
+  background-color: #61380B !important;
+  color: #fff !important;
+}
+table tr th.servico{
+  background-color: #6A0888 !important;
+  color: #fff !important;
+}
+table tr th.planos{
+  background-color: #8A0808 !important;
+  color: #fff !important;
+}
+table tr th.cartoes{
+  background-color: #610B4B !important;
+  color: #fff !important;
+}
+
+table{
+  border-collapse: collapse;
+}    
+table td, th{
+  border: solid 1px #A4A4A4;
+}
+table th{
+  border-bottom: solid 2px red !important;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
+table tr:nth-child(even){
+  background-color: #FFFFFF;
+  height: 20px!important;
+}
+table tr:nth-child(odd){
+  background-color: #FAFAFA;
+  height: 20px!important;
+}
+table td{
+  height: 20px;
+  font-size: 15px;
+  padding: 5px;
+}
+.footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background-color: #f8f8f8;
+  border: solid 1px #e7e7e7;
+  height: 40px;
+  color: #777;
+}
+
+.footer p{
+  text-align: center;
+  margin-top: 10px;
+}
